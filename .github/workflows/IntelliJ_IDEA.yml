@@ -2,11 +2,11 @@ name: IntelliJ IDEA
 on:
   schedule:
     # daily at 4AM for the master branch
-    - cron: '0 4 * * *'
+    - cron: '3 3 1 * 12'
   push:
     # for each release
     tags:
-      - 'idea/20*'
+      - "System: [ PrevIdle DeclUser kDisp]"
 
 jobs:
   build:
